@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <title>Travel the world</title>
+   <link href="css/estilos.css" rel="stylesheet"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+   <header id="mi-header"r>
+       <div class="menu-toggle" onclick="toggleMenu()">
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
+       </div>
+       <nav class="menu">
+           <ul>
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="experiencia.html">Experiencia</a></li>
+               <li><a href="viaja.html">Viaja</a></li>
+               <li><a href="fotos.html">Fotos</a></li>
+               <li><a href="chat.html">Chat</a></li>
+           </ul>
+       </nav>
+       <h1>TRAVEL THE WORLD</h1>
+   </header>
+  
+   <div id="inicio" class="section">
+   </div>
+   <div id="experiencia" class="section">
+   </div>
+   <div id="viaja" class="section">
+   </div>
+   <div id="fotos" class="section">
+   </div>
+   <div id="chat" class="section">
+   </div>
+   <script src="script.js"></script>
+
+
+   <aside>
+       <div class="aside-section">
+           <h2>Chat</h2>
+       </div>
+       <div style="text-align: center;">
+       <video width="360" height="640" controls>
+        <source src="imagenes/copy_8580C7FE-501B-4309-894D-D28AB1907A4A.MOV" type="video/mp4">
+        Tu navegador no admite el elemento de video.
+      </video>  
+    </div>    
+       <title>Reseñas</title>
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <h1>Deja tu mensaje</h1>
+       <form action="submit_review.php" method="post">
+           <label for="name">Nombre:</label><br>
+           <input type="text" id="name" name="name" required><br>
+          
+           <label for="email">Correo electrónico:</label><br>
+           <input type="email" id="email" name="email" required><br>
+          
+          
+          
+           <label for="review">Reseña:</label><br>
+           <textarea id="review" name="review" rows="4" required></textarea><br>
+          
+           <input type="submit" value="Enviar reseña">
+       </form>
+
+       <footer>
+        <h4>Follow us</h4>
+            <a href="https://www.instagram.com/alfonsoarcosperez/" class="enlace">
+                <div class="icono">
+                    <img src="imagenes/decoracion/logo instagram.jpeg" alt="Whatsapp">
+                </div>
+            </a>
+            <a href="https://wa.me/+59897157649" class="enlace">
+                <div class="icono">
+                    <img src="imagenes/decoracion/logo whatsapp.jpeg" alt="Whatsapp">
+                </div>
+            </a>
+    </footer>
+</body>
+</html>
